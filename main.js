@@ -9,19 +9,19 @@ nilai = 70
 
 switch (true) {
     case nilai >= 90:
-        console.log("nilai = A");
+        console.log("predikat = A");
         break;
 
     case nilai >= 80:
-        console.log("nilai = B");
+        console.log("predikat = B");
         break;
 
     case nilai >= 70:
-        console.log("nilai = C");
+        console.log("predikat = C");
         break;
 
     case nilai < 70:
-        console.log("nilai = D");
+        console.log("predikat = D");
         break;
     default:
         console.log('error');
